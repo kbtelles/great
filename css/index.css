@@ -1,0 +1,21 @@
+.main{
+    width: 40rem;
+    height: 100vh;
+    margin: auto;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    
+}
+.bloque{
+    margin: auto;
+    width: 10rem;
+    height: 10rem;
+    background-color: rgb(238, 193, 209);
+    box-shadow: 0px 6px 6px rgb(51, 49, 51);
+}
+
+.activo{
+    display: none;
+}
